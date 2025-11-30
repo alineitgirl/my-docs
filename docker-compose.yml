@@ -1,0 +1,11 @@
+services:
+  mkdocs:
+    container_name: mkdocs
+    image: squidfunk/mkdocs-material:latest
+    restart: always
+    ports:
+      - "8005:8000"  
+    volumes:
+      - ./:/docs       
+    stdin_open: true
+    tty: true

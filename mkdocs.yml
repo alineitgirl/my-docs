@@ -1,0 +1,28 @@
+site_name: TaskManager Docs
+
+site_url: https://techdox.io
+
+site_description: Project Documentation with Markdown.
+
+site_author: MkDocs Team
+
+repo_url: https://github.com/alineitgirl/my-docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Getting Started: getting_started.md
+  - Frontend:
+    - React: frontend/react.md
+    - State Management: frontend/state_management.md
+  - Backend:
+    - API Endpoints: backend/api.md
+    - Database: backend/database.md
+    - Caching & Rate Limiting: backend/caching.md
+
+theme: 
+  name: 'material'
+  features:
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+
